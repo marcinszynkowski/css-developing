@@ -1,0 +1,79 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+     <meta charset="utf-8">
+    <title>Business Card</title>
+</head>
+
+<body>
+<div class="business-card">
+    <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="profile image">
+<p class="full-name"> Seba Xyz
+    </p>
+    <p class="designation">
+  test  </p>
+  
+    <p class="company"> TEST XYZ
+    </p>
+    <hr>
+<p> test@test.com </p>
+<p> +48 123 456 789 </p>
+<a href="http://www.github.com">Portfolio</a>
+    <hr>
+    <div class="social-media">
+<h2>Connect with me</h2>
+<a href="http://twitter.com">Twitter</a>
+<a href="http:/www.linkedin.com">LinkedIn</a>
+<a href="http://www.github.com">GitHub</a>
+</div>
+</div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.business-card {
+  width: 300px;
+  padding: 20px;
+  margin-top: 100px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  text-align: center;
+}
+
+
+.profile-image {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-media {
+
+}
+
+** end of styles.css **
+
